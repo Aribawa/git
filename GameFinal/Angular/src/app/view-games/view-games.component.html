@@ -1,0 +1,58 @@
+<div class="container d-flex flex-row  ">
+    <div class="d-inline-flex p-2">
+    <table id="viewtable" class="table table-bordered" ngOngChanges  > <!-- will send row values to editOrDeletegames -->
+      <thead>
+        <tr>
+          <th scope="col">GameID</th>
+          <th scope="col">GameType</th>
+          <th scope="col">Player 1</th>
+          <th scope="col">Player 2</th>
+          <th scope="col">Winner_is</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let game of games" (click)="showGame(game)" >
+          <th>{{game.GameID}}</th>
+          <td>{{game.GameType}}</td>
+          <td>{{game.Player1}}</td>
+          <td>{{game.Player2}}</td>
+          <td>{{game.Winner_is}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <div class="container" id="editOrDeletegames" >
+    <div class="border border-info d-inline-flex p-2">
+            <div class="p-3">
+                <div class=" row">
+                    <label>Game match: </label>
+                    <input type="number" class="form-control col-3 ml-2" [(ngModel)]="uGame.GameID"  id="gameIDtxt" >
+                </div> 
+                <div class=" row">
+                    <label>Game Type: </label>
+                    <input type="text" class="form-control col-4 ml-2" [(ngModel)]="uGame.GameType"  id="gametypetxt">
+                </div> 
+                <div class=" row">
+                    <label>Player 1: </label>
+                    <input type="text" class="form-control col-4 ml-2" [(ngModel)]="uGame.Player1" id="player1txt">
+                </div>  
+                <div class=" row">
+                    <label>Player 2: </label>
+                    <input type="text" class="form-control col-4 ml-2" [(ngModel)]="uGame.Player2"  id="player2txt">
+                </div>
+                <div class=" row">
+                    <label>Winner_is: </label>
+                    <input type="text" class="form-control col-4 ml-2"  [(ngModel)]="uGame.Winner_is"  id="winnertxt">
+                </div>  
+                <div class="container d-flex justify-content-between">
+                    <button type="submit" class="btn btn-danger" (click)="deleteGame()">Delete</button>
+                    <button type="submit" id="submitbtn" class="btn btn-success" (click)="updateGame(game)">Submit</button>
+                </div>
+              </div>
+    </div>
+  </div>
+  
+  
+  

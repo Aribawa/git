@@ -1,0 +1,12 @@
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\GameService.dll.config
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\GameService.dll
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\GameService.pdb
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\EntityFramework.dll
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\EntityFramework.xml
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\obj\Debug\GameService.csprojAssemblyReference.cache
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\obj\Debug\GameService.csproj.CoreCompileInputs.cache
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\obj\Debug\GameService.csproj.CopyComplete
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\obj\Debug\GameService.dll
+C:\Users\אריאל\Desktop\GameFinal\GameFinalAPI\GameService\obj\Debug\GameService.pdb
